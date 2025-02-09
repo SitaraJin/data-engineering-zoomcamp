@@ -51,7 +51,7 @@ Type this query:
 
 You should see for the external table:
 
-![](/Users/sitara/Desktop/截图/截屏2025-02-09%2015.58.42.png)
+![image](https://github.com/SitaraJin/data-engineering-zoomcamp/blob/main/homework3/images/Q2-1.png)
 
 Type this query:
 
@@ -62,7 +62,7 @@ Type this query:
 
 You should see for the native table:
 
- ![hw3](/Users/sitara/Desktop/截图/截屏2025-02-09%2016.10.44.png)
+![image](https://github.com/SitaraJin/data-engineering-zoomcamp/blob/main/homework3/images/Q2-2.png)
 
 **Answer:**
 
@@ -81,7 +81,7 @@ FROM `kestra-sandbox-450114.nytaxi.native_yellow_tripdata`;
 
 You should see for the query:
 
-![](/Users/sitara/Desktop/截图/截屏2025-02-09%2016.27.15.png)
+![image](https://github.com/SitaraJin/data-engineering-zoomcamp/blob/main/homework3/images/Q3-1.png)
 
 Then type this query:
 
@@ -92,7 +92,7 @@ FROM `kestra-sandbox-450114.nytaxi.native_yellow_tripdata`;
 
 You should see for the query:
 
-![](/Users/sitara/Desktop/截图/截屏2025-02-09%2016.28.57.png)
+![image](https://github.com/SitaraJin/data-engineering-zoomcamp/blob/main/homework3/images/Q3-2.png)
 
 **Answer:**
 
@@ -155,7 +155,7 @@ AND tpep_dropoff_datetime <= '2024-03-15'
 
 You should see for the native table:
 
-![hw4](/Users/sitara/Desktop/Q6-1.png)
+![image](https://github.com/SitaraJin/data-engineering-zoomcamp/blob/main/homework3/images/Q6-1.png)
 
  Type the query:
 
@@ -168,7 +168,7 @@ AND tpep_dropoff_datetime <= '2024-03-15'
 
 You should see for the partitioned table:
 
-![](/Users/sitara/Desktop/截图/Q6-2.png)
+![image](https://github.com/SitaraJin/data-engineering-zoomcamp/blob/main/homework3/images/Q6-2.png)
 
 **Answer:**
 
@@ -213,7 +213,7 @@ FROM `kestra-sandbox-450114.nytaxi.native_yellow_tripdata`;
 
 You should see:
 
-![hw6](/Users/sitara/Desktop/截图/bonus.png)
+![image](https://github.com/SitaraJin/data-engineering-zoomcamp/blob/main/homework3/images/bonus.png)
 
 it's not going to read any bytes when it counts the number of rows. If you go down here to the native table and just open that up, it makes sense. If you scroll down here, the number of rows is known because it's stored in BigQuery how many rows it has. So if you just select count star, it's not really going to read the data, it's going to look at its metadata.
 
