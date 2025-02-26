@@ -2,8 +2,8 @@ version: 2
 
 sources:
   - name: staging
-    database: kestra-sandbox-450114
-    schema: zoomcamp_w4
+    project: kestra-sandbox-450114
+    dataset: zoomcamp_w4
       # loaded_at_field: record_loaded_at
     tables:
       - name: green_tripdata
