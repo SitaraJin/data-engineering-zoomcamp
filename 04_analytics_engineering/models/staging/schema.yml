@@ -6,8 +6,8 @@ sources:
     dataset: zoomcamp_w4
       # loaded_at_field: record_loaded_at
     tables:
-      - name: green_tripdata
-      - name: yellow_tripdata
+      - name: green_tripdata_1
+      - name: yellow_tripdata_1
          # freshness:
            # error_after: {count: 6, period: hour}
 
