@@ -1,0 +1,10 @@
+taxi_rides_ny:  # 你的 dbt 项目名称
+  target: dev   # 目标环境
+  outputs:
+    dev:
+      type: bigquery
+      method: service-account-json  # 或者 service-account
+      project: kestra-sandbox-450114  # 你的 BigQuery 项目 ID
+      dataset: zoomcamp_w4      # 你的数据集名称
+      location: us-central1           # 数据集的位置
+      threads: 1
