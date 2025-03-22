@@ -1,6 +1,5 @@
 # Data ingestion with dlt
 
-Homework: [dlt_homework.md](dlt_homework.md)
 
 🎥 **Watch the workshop video**
 
